@@ -48,3 +48,10 @@ export default tseslint.config({
   },
 })
 ```
+## Storybook
+
+This code should run.
+
+```bash
+npm run storybook
+```
