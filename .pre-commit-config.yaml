@@ -4,3 +4,4 @@ repos:
     hooks:
       - id: biome-check
         additional_dependencies: ["@biomejs/biome@1.9.4"]
+        args: ["--apply"]  # 自動修正を有効化
