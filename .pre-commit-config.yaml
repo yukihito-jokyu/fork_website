@@ -1,7 +1,7 @@
 repos:
   - repo: https://github.com/biomejs/pre-commit
-    rev: "v0.6.1"  # 使用するバージョンを指定してください
+    rev: "v0.6.1"
     hooks:
       - id: biome-check
         additional_dependencies: ["@biomejs/biome@1.9.4"]
-        args: ["--apply"]  # 自動修正を有効化
+        files: ".*\\.(js|ts|jsx|tsx)$"
