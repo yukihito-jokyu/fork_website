@@ -2,10 +2,10 @@ import { useState } from "react";
 
 // local imports
 
+import mainBackground from "@/assets/Home/mainBackground.png";
+import reactLogo from "@/assets/react.svg";
 // images
 import viteLogo from "/vite.svg";
-import mainBackground from "../assets/Home/mainBackground.png";
-import reactLogo from "../assets/react.svg";
 
 const Home = () => {
 	const [count, setCount] = useState<number>(0);
