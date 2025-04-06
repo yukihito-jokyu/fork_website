@@ -1,15 +1,15 @@
 import i18n from "i18next";
 
-import { TopEN } from "@/languages/Top/en";
-import { TopJA } from "@/languages/Top/ja";
+import { HomeEN } from "@/languages/Home/en";
+import { HomeJA } from "@/languages/Home/ja";
 import { initReactI18next } from "react-i18next";
 
 const resources = {
 	en: {
-		translation: TopEN,
+		translation: HomeEN,
 	},
 	ja: {
-		translation: TopJA,
+		translation: HomeJA,
 	},
 };
 

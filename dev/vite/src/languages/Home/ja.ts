@@ -1,4 +1,4 @@
-export const TopEN = {
+export const HomeJA = {
 	header: {
 		art: "Art",
 		dev: "Development",
@@ -15,6 +15,6 @@ export const TopEN = {
 			line3: "my charms.",
 		},
 		contact: "Contact",
-		language: "Hello, this is English.",
 	},
+	language: "こんにちは、日本語です。",
 };
