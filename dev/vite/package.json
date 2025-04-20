@@ -11,11 +11,13 @@
     "biome-format": "biome format",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "plop": "plop --plopfile ./src/plop/generators/plopfile.js"
   },
   "dependencies": {
     "i18next": "^24.2.3",
     "lucide-react": "^0.487.0",
+    "plop": "^4.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.1",
