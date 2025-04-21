@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "plop": "cross-env NODE_OPTIONS='--import tsx' plop --plopfile=./src/plop/generators/plopfile.ts"
+    "plop": "cross-env NODE_OPTIONS='--import tsx' plop --plopfile=./src/plop/generators/plopfile.ts",
+    "chromatic": "npx chromatic --project-token=chpt_8533f2c0d57969b"
   },
   "dependencies": {
     "i18next": "^24.2.3",
@@ -42,6 +43,7 @@
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.21",
+    "chromatic": "^11.28.2",
     "cross-env": "^7.0.3",
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
