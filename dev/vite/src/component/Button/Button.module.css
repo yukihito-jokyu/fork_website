@@ -1,0 +1,100 @@
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	border-radius: 4px;
+	font-weight: 600;
+	transition: background-color 0.2s ease, border-color 0.2s ease;
+	border: none;
+	cursor: pointer;
+}
+
+/* Size variants */
+.btn-small {
+	padding: 4px 8px;
+	font-size: 0.875rem;
+}
+.btn-medium {
+	padding: 8px 12px;
+	font-size: 1rem;
+}
+.btn-large {
+	padding: 12px 20px;
+	font-size: 1.125rem;
+}
+
+/* Solid variants */
+.btn-solid-primary {
+	background-color: #3b82f6;
+	color: white;
+}
+.btn-solid-primary:hover {
+	background-color: #2563eb;
+}
+.btn-solid-secondary {
+	background-color: #6b7280;
+	color: white;
+}
+.btn-solid-secondary:hover {
+	background-color: #4b5563;
+}
+
+/* Outline variants */
+.btn-outline-primary {
+	background: white;
+	border: 2px solid #3b82f6;
+	color: #3b82f6;
+}
+.btn-outline-primary:hover {
+	background-color: #eff6ff;
+}
+.btn-outline-secondary {
+	background: white;
+	border: 2px solid #6b7280;
+	color: #6b7280;
+}
+.btn-outline-secondary:hover {
+	background-color: #f3f4f6;
+}
+
+/* Ghost variants */
+.btn-ghost-primary {
+	background: transparent;
+	color: #3b82f6;
+}
+.btn-ghost-primary:hover {
+	background-color: #eff6ff;
+}
+.btn-ghost-secondary {
+	background: transparent;
+	color: #6b7280;
+}
+.btn-ghost-secondary:hover {
+	background-color: #f3f4f6;
+}
+
+/* Disabled */
+.btn-disabled {
+	cursor: not-allowed;
+	background-color: #e5e7eb !important;
+	color: #9ca3af !important;
+	border: 2px solid #e5e7eb !important;
+}
+
+/* Icon */
+.icon {
+	width: 1rem;
+	height: 1rem;
+	display: inline-flex;
+}
+
+/* Spin animation */
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+.spin {
+	animation: spin 1s linear infinite;
+}
