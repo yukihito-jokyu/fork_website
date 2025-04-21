@@ -19,7 +19,7 @@ jobs:
         run: npm ci
         working-directory: dev/vite
       - name: Run Chromatic
-        working-directory: dev/vite
         uses: chromaui/action@latest
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          workingDir: dev/vite
