@@ -44,11 +44,11 @@ const Button: React.FC<ButtonProps> = ({
 			disabled={disabled || loading}
 			className={getClassName(color, size, disabled || loading, variant)}
 		>
-			{loading ? (
+			{/* {loading ? (
 				<Loader2 className={styles.icon + " " + styles.spin} />
 			) : (
 				icon && <span className={styles.icon}>{icon}</span>
-			)}
+			)} */}
 			{label}
 		</button>
 	);
